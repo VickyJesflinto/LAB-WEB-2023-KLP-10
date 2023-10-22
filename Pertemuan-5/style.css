@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-image: url(/images/bg-blackjack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 120px;
+    color: white;
+}
+  
+h1,
+h3,
+p {
+    font-size: 20px;
+}
+  
+.bot-cards,
+.my-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15%;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+  
+.bot-cards img,
+.my-cards img {
+    width: 100px;
+}
+  
+button {
+    width: 150px;
+    font-size: 16px;
+    margin: 2px;
+    padding: 10px;
+    /* border-color: white; */
+    /* border-radius: 10px; */
+}
