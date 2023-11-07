@@ -1,0 +1,16 @@
+
+.carousel-item img {
+    height: 200;
+}
+
+.space {
+    margin: 5%;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.col-md-3 img{
+    margin-top: 5px;
+}

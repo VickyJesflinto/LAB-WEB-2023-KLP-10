@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovReview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">MovReview</a>
+          <img src="Image/icon.png" alt="Icons" width="25px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Review</a>
+              </li>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Carousel -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1500">
+                <img src="Image/Avatar.jpg" class="d-block w-100" alt="Avatar: The Way of Water" >
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="Image/Endgame.jpg" class="d-block w-100" alt="Avengers: Endgame">
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="Image/Oppenhaimer.jpg" class="d-block w-100" alt="Oppenheimer">
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="Image/spidey.jpg" class="d-block w-100" alt="Spiderman:No Way Home">
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="Image/jumanji next level.jpg" class="d-block w-100" alt="Jumanji: The Next Level">
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img src="Image/harry poter.jpg" class="d-block w-100" alt="Harry Potter">
+              </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+    <div class="space"></div>
+    <div class="about p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div class="col-lg-6 px-0">
+        <h1 class="display-4 fst-italic">MovReview</h1>
+        <p class="lead my-3">Memberikan ulasan tentang film yang bersifat ringan, informatif, mendidik dan mencerahkan. Kupasan film yang kami tawarkan lebih menekankan pada aspek cerita serta pendekatan sinematik yang ditawarkan sebuah film.</p>
+        <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+        </div>
+    </div>
+      
+    <!-- Card -->
+    <section class="section-services my-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="card mb-3 ms-auto" style="max-width: 540px;">
+                    <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="Image/avatar 2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Avatar: The Way of Water</h5>
+                        <p class="card-text">Seorang Marinir lumpuh dikirim ke bulan Pandora untuk menjalani misi khusus namun, ia justru dilema antara mengikuti perintah atau melindungi dunia baru yang iya rasakan seperti rumah.</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3 ms-auto" style="max-width: 540px;">
+                    <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="Image/endgame 2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Avengers: Endgame</h5>
+                        <p class="card-text">Melanjutkan Avengers Infinity War, dimana kejadian setelah Thanos berhasil mendapatkan semua infinity stones dan memusnahkan 50% semua mahluk hidup di alam semesta.</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3 ms-auto" style="max-width: 540px;">
+                    <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="Image/oppenheimer-movie-wallpapers-7.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Oppenheimer</h5>
+                        <p class="card-text">Kisah tentang seorang fisikawan Amerika Serikat bernama J. Robert Oppenheimer yang mengembangkan bom atom.</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3 ms-auto" style="max-width: 540px;">
+                    <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="Image/spiderman.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Spiderman: No Way Home</h5>
+                        <p class="card-text">Pertama kalinya dalam sejarah layar lebar Spider-Man, identitas asli dari pahlawan nan ramah ini terbongkar, sehingga membuat tanggung jawabnya sebagai seorang berkekuatan super berbenturan ...</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3 ms-auto" style="max-width: 540px;">
+                    <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="Image/jumanji.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Jumanji: The Next Level</h5>
+                        <p class="card-text">Dalam Jumanji: The Next Level, keempat sahabat kembali lagi, tetapi permainannya telah berubah. Saat memutuskan masuk lagi ke Jumanji untuk menyelamatkan salah satu dari mereka, mereka menemukan ...</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card mb-3 ms-auto" style="max-width: 540px;">
+                    <div class="row g-0">
+                    <div class="col-md-3">
+                        <img src="Image/potter.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title">Harry Potter</h5>
+                        <p class="card-text">Mengisahkan tentang petualangan seorang penyihir remaja bernama Harry Potter dan sahabatnya, Ron Weasley dan Hermione Granger, yang merupakan pelajar di Sekolah Sihir Hogwarts.</p>
+                        <a href="#" class="btn btn-primary">See More</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-body-secondary py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+          </p>
+          <p class="mb-1">&copy; MovReview</p>
+          <p class="mb-0">Check our contact below </p>
+          <a href="https://www.instagram.com/piikyy_/">
+            <img src="image/icons-instagram.jpg" alt="Instagram" width="30" height="30"></a>
+          <a href="https://github.com/VickyJesflinto">
+            <img src="image/icons-github.jpg" alt="GitHub" width="30" height="30"></a>
+          <a href="https://wa.me/+6282347968977">
+            <img src="image/icons-wa.jpg" alt="WhatsApp" width="30" height="30"></a>
+          <a href="https://web.facebook.com/vicky.jesflinto?locale=id_ID">
+            <img src="image/icons-fb.jpg" alt="Facebook" width="30" height="30"></a>
+          <p>Or contact on movreview@gmail.com</p>
+        </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
